@@ -4,13 +4,20 @@ This is a script to visualize and compare CPU performance across multiple AI mod
 
 ## Project Structure
 
+
 emon_comparison_project/
+
 ├── combine_emon_metrics.py # Python script for visualizing EMON data
+
 ├── README.md # This file
+
 ├── output/ # Folder for generated comparison plots
-├───── EMONllama2.xlsx # EMON dataset for LLaMA 2
-├───── EMONllama3.xlsx # EMON dataset for LLaMA 3
-└───── emon_new.xlsx # EMON dataset for DeepSeek
+
+├─────── EMONllama2.xlsx # EMON dataset for LLaMA 2
+
+├─────── EMONllama3.xlsx # EMON dataset for LLaMA 3
+
+└─────── emon_new.xlsx # EMON dataset for DeepSeek
 
 
 ## What This Script Does
