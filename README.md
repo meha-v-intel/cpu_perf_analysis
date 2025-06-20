@@ -2,23 +2,6 @@
 
 This is a script to visualize and compare CPU performance across multiple AI model workloads — LLaMA 2, LLaMA 3, and DeepSeek — using EMON data.
 
-## Project Structure
-
-
-emon_comparison_project/
-
-├── combine_emon_metrics.py # Python script for visualizing EMON data
-
-├── README.md # This file
-
-├── output/ # Folder for generated comparison plots
-
-├─────── EMONllama2.xlsx # EMON dataset for LLaMA 2
-
-├─────── EMONllama3.xlsx # EMON dataset for LLaMA 3
-
-└─────── emon_new.xlsx # EMON dataset for DeepSeek
-
 
 ## What This Script Does
 
@@ -32,6 +15,8 @@ emon_comparison_project/
 ---
 
 ## Requirements
+
+Required files: All 3 EMON data files 
 
 Required libraries: 
 
